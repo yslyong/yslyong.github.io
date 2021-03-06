@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Cabin:400,500,600,700,800");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+.icon-logo {
+  background-image: url(../img/Logo.svg);
+}
+
+.py-100 {
+  padding: 100px 0px;
+}
+
+.carousel-text {
+  font-family: "Cabin", sans-serif !important;
+}
+
+@media (min-width: 1200px) {
+  .carousel-text {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    margin: 0px !important;
+    padding: 0% !important;
+    text-align: left !important;
+    width: calc(100vw - 60vw);
+  }
+  .carousel-title {
+    font-weight: 700 !important;
+    font-size: 5em;
+    line-height: 1 !important;
+  }
+  .sub-carousel-text {
+    font-size: 1.5em !important;
+    line-height: 1.4;
+  }
+  .sub-carousel-button {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem !important;
+    border-radius: 0.3rem;
+  }
+  .justify-content-center-md {
+    justify-content: left !important;
+  }
+  .d-md {
+    display: none;
+  }
+
+  .d-lg {
+    display: block !important;
+  }
+}
+
+.d-lg {
+  display: none;
+}
+
+.carousel-text {
+  margin-top: 1rem;
+  padding: 1em;
+  text-align: center;
+}
+
+.sub-carousel-text {
+  font-size: 1.25em;
+}
+
+.sub-carousel-button {
+  font-size: 0.8em;
+  margin-bottom: 50px;
+}
+
+.justify-content-center-md {
+  justify-content: center;
+}
+
+.bg-secondary2 {
+  background: #fbfbfb;
+  height: 100%;
+}
+
+.feature {
+  background-color: #fff;
+  text-align: center;
+  padding: 25px;
+  margin-top: 30px;
+  border: 1px solid #eceff8;
+  border-radius: 5px;
+}
+
+.icon-large {
+  font-size: 60px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: black;
+}
