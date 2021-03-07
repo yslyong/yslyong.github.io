@@ -17,7 +17,9 @@ window.onload = function () {
   if (form !== null) {
     document.forms["contact"].reset();
     const setPackage = document.getElementById("packages");
-
+    if (myParam == null) {
+      myParam = "Basic";
+    }
     setPackage.value = myParam;
     console.log(setPackage);
   }
