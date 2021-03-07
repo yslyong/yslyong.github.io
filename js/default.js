@@ -33,3 +33,11 @@ function popmsg() {
   console.log(popmsg);
   popmsg.classList.remove("d-none");
 }
+
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+
+gtag("config", "G-LEB297G67F");
