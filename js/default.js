@@ -12,15 +12,14 @@ window.onload = function () {
 
   const form = document.getElementById("contact");
   const urlParams = new URLSearchParams(window.location.search);
-  const myParam = urlParams.get("package");
+  var myParam = urlParams.get("package");
 
   if (form !== null) {
     document.forms["contact"].reset();
     const setPackage = document.getElementById("packages");
-    if (myParam == null) {
+    if (myParam != null) {
       myParam = "Basic";
     }
-    setPackage.value = myParam;
     console.log(setPackage);
   }
 };
