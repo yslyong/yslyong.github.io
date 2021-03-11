@@ -17,10 +17,12 @@ window.onload = function () {
   if (form !== null) {
     document.forms["contact"].reset();
     const setPackage = document.getElementById("packages");
-    if (myParam != null) {
+    if (myParam == null) {
       myParam = "Basic";
+      setPackage.value = myParam;
+    } else {
+      setPackage.value = myParam;
     }
-    console.log(setPackage);
   }
 };
 
