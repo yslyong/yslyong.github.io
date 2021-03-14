@@ -26,14 +26,8 @@ window.onload = function () {
   }
 };
 
-function popmsg() {
-  const form = document.getElementById("contact");
-  console.log(form);
-  form.classList.add("d-none");
-
-  const popmsg = document.getElementById("popmsg");
-  console.log(popmsg);
-  popmsg.classList.remove("d-none");
+function redirectTo() {
+  window.location.href = "/thank-you.html";
 }
 
 window.dataLayer = window.dataLayer || [];
